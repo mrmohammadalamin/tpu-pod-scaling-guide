@@ -1,6 +1,6 @@
 # Scaling Performance: A Deep Dive into TPU Pods
 
-![TPU Pod Cluster](file:///C:/Users/mrmoh/.gemini/antigravity/brain/dda4ed32-5084-4217-939a-901e8785ac2a/tpu_pod_cover_1777472716957.png)
+![TPU Pod Cluster](images/tpu_pod_cover_1777472716957.png)
 
 In the world of Large Language Models (LLMs) and massive-scale AI, training on a single chip is no longer enough. To achieve state-of-the-art results, we need to harness the power of **TPU Pods**—high-performance clusters that interconnect multiple TPU devices via a dedicated, high-speed network.
 
@@ -49,7 +49,7 @@ If you don't adjust your **batch size** and **learning rate**, you'll hit a "sca
 
 ## 3. Step-by-Step Guide: Optimizing for Scale
 
-![Scaling Performance](file:///C:/Users/mrmoh/.gemini/antigravity/brain/dda4ed32-5084-4217-939a-901e8785ac2a/scaling_performance_viz_1777472733426.png)
+![Scaling Performance](images/scaling_performance_viz_1777472733426.png)
 
 ### Step 0: Provisioning your TPU Slice
 First, you need to spin up your environment. Use the `gcloud` command to create a multi-host TPU VM slice.

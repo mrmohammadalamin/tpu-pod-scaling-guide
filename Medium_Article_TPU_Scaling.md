@@ -2,7 +2,7 @@
 
 ### How to Unlock Near-Linear Scaling for LLMs with Hardware-Aligned Optimization
 
-![TPU Pod Cluster](C:/Users/mrmoh/.gemini/antigravity/brain/dda4ed32-5084-4217-939a-901e8785ac2a/tpu_pod_cover_1777472716957.png)
+![TPU Pod Cluster](images/tpu_pod_cover_1777472716957.png)
 
 In the era of Generative AI, the bottleneck is no longer just the algorithm—it’s the infrastructure. To train models with billions of parameters, we have moved beyond individual chips into the realm of **TPU Pods**. These are high-performance clusters that scale your training by interconnecting multiple TPU devices via dedicated, high-speed network interfaces.
 
@@ -46,7 +46,7 @@ graph TD
 
 When scaling correctly, your throughput should grow linearly with your hardware. If you double your TPU chips, you should double your samples per second.
 
-![Scaling Performance](C:/Users/mrmoh/.gemini/antigravity/brain/dda4ed32-5084-4217-939a-901e8785ac2a/scaling_performance_viz_1777472733426.png)
+![Scaling Performance](images/scaling_performance_viz_1777472733426.png)
 
 ---
 
@@ -102,7 +102,7 @@ scaled_lr = base_lr * (global_batch_size / 1024)
 ### Execution Proof: v6e-32 Results
 Below is a screenshot of the training logs running on a **v6e-32** slice. Notice the throughput reaching nearly **5,000 samples/sec** with 99% scaling efficiency.
 
-![TPU Execution Screenshot](C:/Users/mrmoh/.gemini/antigravity/brain/dda4ed32-5084-4217-939a-901e8785ac2a/tpu_execution_screenshot_1777496326149.png)
+![TPU Execution Screenshot](images/tpu_execution_screenshot_1777496326149.png)
 
 ---
 
